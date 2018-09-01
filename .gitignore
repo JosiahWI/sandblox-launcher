@@ -1,0 +1,44 @@
+# Unnecessary folders/directories
+bin
+build*
+CMakeFiles
+CMakeScripts
+Testing
+
+# Gcov test files.
+*.gcov
+*.gcda
+*.gcno
+
+# Compiled binaries/libraries
+*.a
+*.o
+*.obj
+*.out
+*.exe
+*.gch
+*.pch
+*.dll
+*.la
+*.lai
+*.lo
+*.def
+*.exp
+*.app
+*.layout
+*.config
+*.kdev4
+*.user
+
+
+# Build files
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+
+!default.config
+
+\.vs*/
